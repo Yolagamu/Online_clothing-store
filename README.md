@@ -1,4 +1,7 @@
-# Yolanda's clothing online store
+# web tech, web development, web programming. html, css, JavaScript, PHP, MySQL 
+
+
+##Yolanda's clothing online store
 
 Yolanda's clothing is a simple responsive online store built with HTML, CSS, JAVASCRIPT, PHP and MySQL, it allows users to add items, delete, update, select color, size and quantity.
 
