@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  padding-bottom: 200px; /* space for footer */
+  font-family: Arial, sans-serif;
+}
+.main-nav {
+  background: #333;
+  padding: 10px;
+  text-align: center;
+}
+.main-nav a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+}
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+.product {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+.product img {
+  max-width: 100%;
+  height: auto;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #333;
+  color: #fff;
+  padding: 10px;
+}
+.footer-links a {
+  color: #fff;
+  margin-right: 10px;
+  text-decoration: none;
+}
+.coupons {
+  margin-top: 10px;
+}
+.coupon {
+  margin-bottom: 5px;
+}
+.brand-heading {
+  font-style: italic;
+  font-size: 2rem;
+  text-align: center;
+  background: linear-gradient(to right, pink, dodgerblue);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.cart-badge {
+  background: #ff3e6c;
+  color: #fff;
+  padding: 2px 6px;
+  border-radius: 12px;
+  font-size: 0.9rem;
+  vertical-align: top;
+}
+/* style.css */
+
+.site-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  padding: 10px 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  z-index: 1000;
+}
+
+body {
+  margin-top: 100px; /* space so page content doesn't go under the header */
+}
+
+.main-nav {
+  margin-top: 5px;
+}
+
+.brand-heading {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+}
